@@ -1,0 +1,16 @@
+1. While Booking ticket , in this page ( http://punarjanimunnar.com/admin/admin_booking_ticket.php )
+
+Show Name should come first then Show timing should come.
+
+Seat Numbers: 12H,13H, should come as H12, H13. (letter should come first then the number should come afterwards)
+
+2. Use the admin files and replace in local and test , already CSS applied.
+
+3. in the above serach box in the menu bar  the search ticket funcnality shoul be copied (http://punarjanimunnar.com/admin/search_ticket.php)
+
+4. Report : Select from and to date , event name : should the totoal tickets sold out and amount recived whether by Manual Counter / ONline Payment .
+
+
+108.163.250.251
+USER: punarjanimunnar
+Password: Punar@2013
