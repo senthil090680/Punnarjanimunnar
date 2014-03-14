@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+
+.seat-width-height {
+	height:40px;
+	width: 40px;
+	border: medium solid #33CC00;
+	background-color: #000;
+	color: #FFF;
+}
+.notavailable-seats {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	color: #FFF;
+	background-color: #000;
+	height: 40px;
+	width: 40px;
+	border: medium solid #F00;
+}
+.notavailable-seats-YET {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	color: #FFF;
+	background-color: #000;
+	height: 40px;
+	width: 40px;
+	border: medium solid #FF0000;
+}

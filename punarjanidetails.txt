@@ -1,0 +1,11 @@
+Note:
+
+Logout Not Working
+Header link not active
+session_start() warning in some pages
+keyword search not working
+search ticket function not working 
+all nagavigation on right side is not working
+After login on admin page... slider on header is not working
+In registration page some errors.
+----------------------------------------------------------------------------------------------------------------

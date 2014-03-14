@@ -1,0 +1,41 @@
+fieldset { border:1px solid green }
+
+legend {
+  padding: 0.9em 0.9em;
+  border:1px solid green;
+  color:green;
+  font-size:100%;
+  text-align:right;
+  }
+  fieldset {
+  padding: 5em;
+  font:90%/1 sans-serif;
+  }
+input {
+    /* round the corners */
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;    
+}
+
+select {
+    /* round the corners */
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;    
+	width: 150px;
+}
+
+tr { 
+    display: block;
+    margin-bottom: 5px;
+}
+#user_registration_from { 
+
+  font:90%/1 sans-serif;
+}
+input[type="text"] {
+    width: 150px;
+}
+
+#message {margin:20px; padding:20px; display:block; background:#cccccc; color:#cc0000;}

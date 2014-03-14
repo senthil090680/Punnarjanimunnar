@@ -1,0 +1,20 @@
+
+div.ticket_flyout li ul 				{ display: none; position: absolute; top:0px; left:204px; 
+											margin:4px 0 0 -4px; padding:0 0 15px 0;
+											 background:#949E86 url("../images/bg_flyout.png") top left no-repeat; width:230px; }
+div.tickets_flyout li ul.nav_madison_ul	{ margin-top:72px; }
+div.tickets_flyout li ul.nav_houston_ul	{ margin-top:42px; }
+
+
+
+div.flyout li ul 						{ display: none; position: absolute; top:0px; left:204px; 
+											margin:4px 0 0 -4px; padding:0 0 15px 0; 
+											background:#949E86 url("../images/bg_flyout.png") top left no-repeat; width:230px; }
+div.flyout li ul.nav_madison_ul    		{ margin-top:72px; }
+div.flyout li ul.nav_houston_ul    		{ margin-top:42px; }
+
+
+div#theater_warn_box .logo				{top:20px}
+div#theater_warn_box .summary			{top:150px}
+
+.IE7span								{vertical-align:10px}

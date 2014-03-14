@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<photos>
+	<photo>
+		<filename>images/ex1.jpg</filename>
+		<title>Leaves - Title 01</title>
+		<description><![CDATA[<p><a href="http://www.flashmo.com" target="_parent">Lorem ipsum dolor sit amet</a>, consectetur adipiscing elit. Quisque at ante sit amet erat laoreet <u>fermentum</u>. Quisque nec nisl. Nam scelerisque cursus dolor.</p><p><span class="highlight">This text is dynamically loaded from the external XML file. This textfield supports HTML and CSS.</span></p>]]></description>
+	</photo>
+	<photo>
+		<filename>images/ex2.jpg</filename>
+		<title>Leaves - Title 02</title>
+		<description><![CDATA[<p><a href="http://www.flashmo.com/donate" target="_blank">Fusce quis diam sit</a> amet tortor luctus pellentesque. Donec accumsan urna non elit tristique mattis. <b>Vivamus fermentum</b> orci viverra nisl. In nec magna id ipsum aliquam dictum.</p><br /><p class="note">Donec euismod enim et risus. Nunc aliquam, dolor vitae sollicitudin lacinia, nibh orci sagittis diam, dignissim sodales dui erat nec eros. Fusce quis enim.</p>]]></description>
+	</photo>
+	<photo>
+		<filename>images/ex3.jpg</filename>
+		<title>Leaves - Title 03</title>
+		<description><![CDATA[<p>In velit urna, <u>convallis id</u>, pharetra in, iaculis sit amet, mi. Praesent consectetur imperdiet mauris. Suspendisse at pede vel lorem pulvinar laoreet. Etiam et neque. Donec dapibus viverra est. <a href="http://www.koflash.com" target="_blank">Flash Web Gallery</a></p>]]></description>
+	</photo>
+	<photo>
+		<filename>images/ex4.jpg</filename>
+		<title>Leaves - Title 04</title>
+		<description><![CDATA[<p><a href="http://www.flashmo.com/store" target="_blank">Mauris vestibulum felis</a> eget tortor. Praesent mattis varius quam. Vestibulum ullamcorper ipsum nec augue. Vestibulum auctor odio eget ante.</p><p>Nunc commodo, magna pharetra semper vehicula, dui ligula feugiat elit, et euismod nunc orci ut libero. Etiam sodales massa vel metus. <span class="note">Mauris et elit quis mauris aliquet luctus.</span></p>]]></description>
+	</photo>
+	<photo>
+		<filename>images/ex5.jpg</filename>
+		<title>Leaves - Title 05</title>
+		<description><![CDATA[<p>Nunc aliquam, dolor vitae sollicitudin lacinia, nibh orci sagittis diam, dignissim sodales dui erat nec eros. Fusce quis enim. <a href="http://www.flashmo.com" target="_parent">Aenean eleifend</a>, neque hendrerit elementum sodales, odio erat sagittis quam, sed tempor orci magna vitae tellus.</p>]]></description>
+	</photo>
+	</photos>

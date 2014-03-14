@@ -1,0 +1,308 @@
+body							{  margin:0px; padding:0px;
+								  font-family:Verdana,Arial,sans-serif; font-size:11px; color:#111; behavior: url("csshover3.htc");
+								 }
+.center							{text-align: center; text-indent:0; margin-left:auto; margin-right: auto}
+.right							{text-align: right;}
+.clickable						{cursor: pointer}
+.ul								{text-decoration:underline}
+.noclick						{cursor: default}
+.alert							{color: darkred; font-size: 12px;}
+
+
+/* misc constants */
+a								{ outline:none; border:none; }
+img								{ border:none; }
+p.double						{ margin: 0px; }
+.sitewidth						{ width:964px; }
+div.main						{ border-top:2px solid #fff; border-left:3px solid #fff; border-right:3px solid #fff; margin:10px auto; }
+
+/* use for page titles */
+h1								{ font-size:20px; font-weight:bold; margin:0px; padding:0px; margin:10px 0 10px 0; }
+
+#floatingTicketLinkOnHomepage_kabuki 	{ position:absolute; top:133px; left:50%; margin-left:-30px; height:20px; width: 130px;}
+#floatingTicketLinkOnHomepage_houston 	{ position:absolute; top:275px; left:50%; margin-left:-30px; height:20px; width: 130px;}
+#floatingTicketLinkOnHomepage_madison 	{ position:absolute; top:420px; left:50%; margin-left:-30px; height:20px; width: 144px;}
+a.floatingTicketLinkOnHomepage 			{ display:block; width:144px; height:22px; }
+
+/* header styles */
+div.header						{ background:#fff; }
+div.header .logo				{ width:200px; text-align:left; }
+div.header .theater_links 		{ background:url("../images/bg_header.jpg") top left no-repeat; width:616px; padding-bottom:3px; vertical-align:bottom; text-align:left; }
+div.header .theater_links_wide 		{ background:url("../images/bg_header-wide.jpg"); width:764px; padding-bottom:3px; vertical-align:bottom; text-align:left; }
+div.header .theater_links a		{ margin-left:20px; }
+
+/* ticket_flyout menu styles */
+#ticket_flyout								{ position:absolute; top:175px; left:50%; margin:0px; padding:0px; margin-left:-482px; }
+div.ticket_flyout ul 						{ margin:0px; padding:0px; list-style: none; }
+div.ticket_flyout li 						{ width:auto; height:34px; margin:0px; padding:0px; }
+div.ticket_flyout li:hover					{ cursor:pointer; }
+div.ticket_flyout li ul 					{ display: none; position: absolute; top:-5px; left:0; margin:-32px 0 0 200px; padding:0 0 15px 0; background:#949E86 url("../images/bg_flyout.png") top left no-repeat; width:230px; }
+div.ticket_flyout li>ul 					{ top:auto; left:auto; }
+div.ticket_flyout li:hover ul, li.over ul 	{ display: block; }
+div.ticket_flyout li ul li					{ font-size:12px; height:auto; padding:11px 0 0 20px; }
+div.ticket_flyout li ul li a 				{ color:#fff; text-decoration:none; }
+div.ticket_flyout li ul li a .arrow 		{ filter:alpha(opacity=0); -moz-opacity:0; -khtml-opacity:0; opacity:0; zoom:1; }
+div.ticket_flyout li ul li a:hover			{ color:#000; text-decoration:none; }
+div.ticket_flyout li ul li a:hover .arrow 	{ filter:alpha(opacity=100); -moz-opacity:1; -khtml-opacity:1; opacity:1; zoom:1; }
+
+
+.theaterLocations	{ display:block; position:absolute; z-index:2000; top:211px; left:50%; margin-left:-282px; padding:0 0 15px 0; background:url("../images/bg_flyout2.png") top left no-repeat; }
+.theaterLocationsCTA	{ display:block; position:absolute; z-index:2000; top:107px; left:50%; margin-left:-290px; padding:0 0 15px 0; background:url("../images/bg_flyout_no_arrow.png") top left no-repeat; }
+.insidersGuide		{ display:block; position:absolute; z-index:2000; top:279px; left:50%; margin-left:-282px; padding:0 0 15px 0; background:url("../images/bg_flyout2.png") top left no-repeat; }
+
+.banner_theaterLocations ul,
+.theaterLocations ul,
+.theaterLocationsHeader ul,
+.theaterLocationsCTA ul,
+.insidersGuide ul	 					{ margin:0px; padding:0px; list-style:none; }
+
+.banner_theaterLocations ul li,
+.theaterLocations ul li,
+.theaterLocationsHeader ul li,
+.theaterLocationsCTA ul li,
+.insidersGuide ul li					{ font-size:12px; height:auto; margin:0px; padding:0px; padding:11px 20px 0 20px; list-style:none; }
+
+.banner_theaterLocations ul li a,
+.theaterLocations ul li a,
+.theaterLocationsCTA ul li a,
+.theaterLocationsHeader ul li a,
+.insidersGuide ul li a	 				{ color:#fff; text-decoration:none; }
+
+.banner_theaterLocations ul li a .arrow,
+.theaterLocations ul li a .arrow,
+.theaterLocationsCTA ul li a .arrow,
+.theaterLocationsHeader ul li a .arrow,
+.insidersGuide ul li a .arrow	 		{ filter:alpha(opacity=0); -moz-opacity:0; -khtml-opacity:0; opacity:0; zoom:1; }
+
+.banner_theaterLocations ul li a:hover,
+.theaterLocations ul li a:hover,
+.theaterLocationsCTA ul li a:hover,
+.theaterLocationsHeader ul li a:hover,
+.insidersGuide ul li a:hover			{ color:#000; text-decoration:none; }
+
+.banner_theaterLocations ul li a:hover .arrow,
+.theaterLocations ul li a:hover .arrow,
+.theaterLocationsCTA ul li a:hover .arrow,
+.theaterLocationsHeader ul li a:hover .arrow,
+.insidersGuide ul li a:hover .arrow 	{ filter:alpha(opacity=100); -moz-opacity:1; -khtml-opacity:1; opacity:1; zoom:1; }
+
+
+/* flyout menu styles */
+#flyout										{ position:absolute; top:243px; left:50%; margin:0px; padding:0px; margin-left:-482px; }
+div.flyout ul 								{ margin:0px; padding:0px; list-style: none; }
+div.flyout li 								{ width:auto; height:34px; margin:0px; padding:0px; }
+div.flyout li:hover							{ cursor:pointer; }
+div.flyout li ul 							{ display: none; position: absolute; top:-5px; left:0; margin:-32px 0 0 200px; padding:0 0 15px 0; background:#949E86 url("../images/bg_flyout.png") top left no-repeat; width:230px; }
+div.flyout li>ul 							{ top:auto; left:auto; }
+div.flyout li:hover ul, li.over ul 			{ display: block; }
+div.flyout li ul li							{ font-size:12px; height:auto; padding:11px 0 0 20px; color:#fff}
+div.flyout li ul li:hover					{ font-size:12px; height:auto; padding:11px 0 0 20px; color:#000}
+div.flyout li ul li a 						{ color:#fff; text-decoration:none; }
+div.flyout li ul li a .arrow 				{ filter:alpha(opacity=0); -moz-opacity:0; -khtml-opacity:0; opacity:0; zoom:1; }
+div.flyout li ul li a:hover					{ color:#000; text-decoration:none; }
+div.flyout li ul li a:hover .arrow 			{ filter:alpha(opacity=100); -moz-opacity:1; -khtml-opacity:1; opacity:1; zoom:1; }
+
+
+#content 									{ clear: left; }
+
+
+/* main content styles */
+div.main_content				{ background:#E9EACA url("../images/bg_main_content.gif") top left repeat-y; }
+div.main_content_showtimes_wide		{ background:#E9EACA; padding: 20px 20px 20px 20px; }
+div.main_content td				{ vertical-align:top; text-align:left; }
+div.main_content .nav_bar		{ background:url("../images/bg_navigation.gif") top left repeat-y; width:200px; padding-bottom:55px; }
+.nav_bar .navigation			{ padding:10px 0 35px 0; }
+.nav_bar .navigation a			{ padding:0px; margin:0px; }
+.nav_bar .dolby					{ text-align:left; padding:0 0 15px 30px; }
+.nav_bar .signup				{ text-align:left; padding-left:13px; }
+div.main_content .content		{ background:url("../images/bg_main_content_content.gif") top left no-repeat; padding:20px 22px 55px 26px; }
+div.main_content .showtimes		{ background:url("../images/bg_main_content_wide.gif") top left repeat-y; padding:20px 22px 55px 26px; }
+div.main_content .showtimes_wide	{ background:padding:20px 22px 55px 26px; }
+div.main_content .news			{ background:#949E86; width:217px; color:#FBFEEB; }
+div.main_content .news .contents{ padding:20px 22px 55px 24px; border-top:1px solid #fff; line-height:16px; }
+div.main_content .news a		{ color:#FBFEEB; text-decoration:underline; }
+div.main_content .news b a		{ color:#FBFEEB; text-decoration:none !important; }
+div.main_content .news a:hover	{ color:#fff; text-decoration:underline !important; }
+div.main_content .news hr		{ border:0px; height:0px; border-bottom:1px dashed #B6C0A8; padding:0px; margin:0px; margin:14px 0 15px 0; }
+
+div.movie_posters				{ background:url("../images/bg_movie_posters.png") top left no-repeat; width:231px; height:391px; }
+div.movie_posters .image		{ padding:9px 0 0 38px; }
+
+div.insiders_guide				{ padding:15px 0 25px 0; line-height:18px; }
+td.insiders_guide li			{ padding-bottom:15px; }
+a.insiders_guide_thumb 			{ display:block; margin-bottom:10px; }
+img.insiders_guide_thumb 		{ border:2px solid #7C8674; }
+
+/* schedule listing */
+/*
+div.schedule					{ width:703px; background:#fff; margin-bottom:35px; }
+div.schedule h2					{ font-size:16px; background:#8D4839; color:#D5D59D; font-weight:normal; padding:10px 0 10px 10px; margin:0px; }
+div.schedule td					{ padding:8px 5px 8px 10px; border-bottom:1px solid #eee; vertical-align:top; text-align:left; }
+div.schedule .name				{ font-weight:bold; width:250px; border-right:1px solid #eee; }
+div.schedule .times				{ font-weight:bold; }
+div.schedule .times .time		{ padding:0 10px 0 5px; }
+div.error						{ font-size:14px; font-weight:bold; color:#D55A43; }
+*/
+
+/* footer styles */
+div.footer						{ background:#8D4839; }
+
+div.siteby						{ font-size:10px; color:#fff; padding:10px 0 35px 0; }
+div.siteby a					{ color:#fff; text-decoration:none; }
+div.siteby a:hover				{ color:#fff; text-decoration:underline; }
+div.siteby td					{ text-align:left; vertical-align:top; }
+div.siteby .copyright			{ text-align:right; }
+
+
+/* Loyalty.html */
+.LoyaltyLoginForm label,
+.LoyaltyForm label							{width: 10em; text-align: right; display:inline-block;}
+
+.LoyaltyLoginForm .alert,
+.LoyaltyForm .alert							{background-color:#FAA; color:Green; }
+
+.LoyaltyLoginForm >input[type=checkbox].alert,
+.LoyaltyForm>input[type=checkbox].alert			{outline: 1px solid darkred }
+
+.LoyaltyLoginForm  label.alert,
+.LoyaltyForm label.alert					{display:none}
+
+
+#vista_DateOfBirth				{display:inline-block}
+
+
+
+/**************************************************
+
+Styles for the new ticketing system.
+Created 8/2011 by David Hampson
+
+It's a littly sloppy, but I didn't want to 
+interfere with existing class names.
+
+***************************************************/
+
+.theater_warn_box				{position:fixed; top:200px; left:50%; margin-left: -153px; 
+								width: 306px; height:256px; background: url('../images/shadowbox_bg.png');
+								visibility:hidden
+								}
+								
+.theater_warn_box .logo			{position:absolute; top:10px; left:55px;
+								}
+.theater_warn_box .summary		{position:absolute; top:135px; width:100%;
+								font-size:12px; text-align:center;
+								font-family: Arial,Verdana,Helvetica,sans-serif; color:#333;
+								}
+.theater_warn_box .backButton	{position:absolute; bottom:15px; left:15px;}
+.theater_warn_box .continueButton	{position:absolute; bottom:15px; right:15px;}
+
+#tickets_overlay				{width: 100%; height: 200%; position: fixed; left:0; top:0px;
+								
+								z-index: 1250; visibility: hidden;
+								}
+#IE_underlay					{width: 100%; height: 200%; position: absolute; left:0; top:-35px;
+								background: url('../images/tickets_bg.png');
+								 visibility: hidden;
+								}
+
+#ticket_container				{position: absolute; width: 950px; background: url('../images/tickets_bg.png');
+								left: 50%; margin: 50px -475px auto; padding: 0;visibility:hidden}
+#ticket_window					{float: left; padding: 0 0 3px 0}
+#column_holder					{width:950px; border:0; padding:0; float:left;}
+
+#tickets_window, h2					{color:white; font-size: 14px; font-weight: bold; margin:0px; padding:6px 0 0 4px}
+#tickets_window, h3					{color: black;}
+#tickets_window, h4					{color: #8b804f; font-size:12px;}
+#tickets_window, h5					{background: #365A66; color: white; font-size:12px; padding: 3px; margin:0}
+#tickets_window, h6					{background: url('../images/tickets_bg_red.png'); color: #8D4839; font-size:12px;
+									 padding:4px 4px 6px 4px; margin:0}
+#tickets_window, label				{font-weight: bold font-size: 12px; color: #365a66;}
+#tickets_window, .popupheader		{background: url('../images/tickets_bg_header.jpeg'); padding-top:7px; height:33px; width: 950px}
+.closer								{text-align:right; background: url('../images/popup_closer.png') no-repeat right;
+									position:absolute; top:0; right:3px; padding: 0px 16px 0px 0px; margin: 12px 8px 0 0;
+									font-size:12px; color:white}
+#tickets_window, .column			{background: url('../images/tickets_bg.png'); border:1px solid grey; float:left; padding: 0px;}
+#tickets_window, .column .colhead	{background: url('../images/tickets_bg_gray.png') repeat-x;
+									top:0; height:30px}
+#tickets_window, .subcol			{border: 0px solid grey; padding: 5px; font-size:11px}
+#tickets_window, .timer				{font-size: 32px;color:#BD3215; margin: 10px auto; padding-right:1em}
+#tickets_window, .tix				{color:#BD3215; font-weight: bold}
+#tickets_window, .spinner			{text-align:center;}
+
+#SeatSelector						{width:580px; min-height: 300px; float:left; }
+
+#ticket_window input[type=text],
+#ticket_window input[type=password] {
+    width:180px; 
+    background-color: #fff;
+    border: 0;
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 7px;
+    border-radius: 5px;
+    -ms-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+}
+
+#ticket_window input[type=text].error {
+    width:180px; 
+    background-color: #b83e3e;
+    border: 0;
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 7px;
+    border-radius: 5px;
+    -ms-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+}
+
+#loyalty_div						{min-height: 300px}
+
+.legend img							{margin: 0 10px 0 30px; font-size: 12px; font-weight: bold}
+.legend p							{margin-left: -30px}
+.seat								{
+
+position: absolute;
+ width:20px; height:20px; background-repeat: no-repeat}
+.seat p							{ margin-top: 0px; padding:0; text-indent:0; font-size:10px; text-align: center; font-weight: bold}
+.empty								{background: url('../images/seat-available.png'); background-repeat: no-repeat;
+										font-size: 6px; color: black}
+.empty:hover						{background: url('../images/seat-available_hov.png'); background-repeat: no-repeat}
+.comp								{background: url('../images/seat-companion.png'); background-repeat: no-repeat;
+										font-size:6px; color: #759D61}
+.comp:hover							{background: url('../images/seat-companion_hov.png'); background-repeat: no-repeat}
+.sold								{background: url('../images/seat-sold.png'); background-repeat: no-repeat;
+										font-size: 6px; color: white;}
+.selected							{background: url('../images/seat-selected.png'); background-repeat: no-repeat;
+										font-size: 6px; color: white;}
+.selected:hover						{background: url('../images/seat-selected_hov.png'); background-repeat: no-repeat}
+.label								{font-size: 25px; font-weight:bold; }
+.table								{background: url('../images/table.png'); background-repeat: no-repeat; position: absolute; width:10px; height:20px}
+.movie_title						{color: #8b804f; font-size:12px; line-height: 20px; font-weight:bold; padding: 3px 0 }
+.showtime_block						{width: 100%; margin: 5px}
+.showtime							{display:inline-block; width: 10em; line-height:20px; text-align:right}
+.showtime_sel						{color:blue; font-weight:bold}
+.showtime_soldout					{display:inline-block; width: 10em; color:red; font-weight:bold; text-align:right}
+.auditorium .time					{display:inline-block; margin-right:1em;}
+.showtime .time						{display:inline-block; width: 4em}
+.attr21								{color:white; background:rgb(245,149,32); text-decoration:none; padding: 2px; border-radius:5px; margin-right: 4px}
+.attrB21							{color:white; background:#C172F2; text-decoration:none; padding: 2px; border-radius:5px; margin-right: 4px}
+.attr3D								{color:white; background:rgb(12,179,220); text-decoration:none; padding: 2px; border-radius:5px; margin-right: 4px}
+.attr2D								{color:white; background:#49B162; text-decoration:none; padding: 2px; border-radius:5px; margin-right: 4px}
+.attr48				    {color:white; background:#DC350C; text-decoration:none; padding: 2px; border-radius:5px; margin-right: 2px}
+
+
+.cc									{position: relative; top: 3px;}
+
+.showtime_table						{width: 100%; border:1px solid #000; border-collapse: collapse}
+.showtime_table td					{padding:10px; border: 1px solid black; padding:  10px}
+.showtime_table td p				{font-size:14px; font-weight: bold; margin:0px; line-height: 1.2em}
+.cms_content						{border: 1px solid red}
+
+.spacer								{height: 30px}
+
+#debug_div							{background:#949E86; color:white; width: 900px; margin:0 auto; min-height: 100px; padding: 10px; text-align:left}
